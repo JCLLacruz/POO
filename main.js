@@ -93,7 +93,7 @@ class Aztec extends Warrior {
        super(life,power)
     }
     drinkNesquik(){
-        this.life += 10;
+        return this.life += 10;
     }
 }
 

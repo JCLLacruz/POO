@@ -53,7 +53,7 @@ class Gallery {
 }
 
 class Painter {
-	constructor(gallery) {
+	constructor(createGallery,gallery) {
 		this.createGallery();
 		this.gallery = gallery;
         console.log('Constructor',this.gallery);
